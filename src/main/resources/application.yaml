@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "http-service2"
+
+server:
+  port: 8081
+
+whatthecommit:
+  url: "https://whatthecommit.com/index.txt"

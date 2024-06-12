@@ -1,0 +1,36 @@
+{
+  "connectionString": "InstrumentationKey=54cb813c-7f4e-4409-80e2-36d9ee949dd5;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=81aaab22-b88c-4fb1-8516-41eda430f333",
+  "role": {
+    "name": "my cloud role name"
+  },
+  "sampling": {
+    "percentage": 100
+  },
+  "jmxMetrics": [
+  ],
+  "customDimensions": {
+  },
+  "instrumentation": {
+    "logging": {
+      "level": "INFO"
+    },
+    "micrometer": {
+      "enabled": true
+    }
+  },
+  "proxy": {
+  },
+  "preview": {
+    "processors": [
+    ]
+  },
+  "selfDiagnostics": {
+    "destination": "file+console",
+    "level": "INFO",
+    "file": {
+      "path": "applicationinsights.log",
+      "maxSizeMb": 5,
+      "maxHistory": 1
+    }
+  }
+}
